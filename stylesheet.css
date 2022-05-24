@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+.image-header{
+    width: 55px;
+    margin-top: 35px;
+}
+
+.launch{
+    font-size: 32px;
+    color: hsl(0, 0%, 59%);
+    margin-bottom: -10px;
+}
+
+.launch b{
+    color: hsl(209, 33%, 12%);
+}
+
+.subscribe{
+    color: hsl(209, 33%, 12%);
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.info{
+    text-align: center;
+}
+
+.email-info{
+    margin-bottom: 30px;
+    font-size: 8px;
+}
+
+input{
+    width: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    padding-left: 20px;
+    outline: none;
+    border: 1px solid hsl(0, 0%, 59%);
+}
+
+.error{
+    text-align: start;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+button{
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    padding-left: 40px;
+    padding-right:40px;
+    margin-left: 5px;
+    color: white;
+    background-color: hsl(223, 87%, 63%);
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(223, 100%, 88%);
+}
+
+.dashboard{
+    width: 450px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.icons i{
+    color: hsl(223, 87%, 63%);
+    font-size: 20px;
+    padding-right: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* .icons i:hover{
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+} */
+
+.copy-right{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer{
+    display: block;
+}
+
+.attribution {
+     font-size: 11px; text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .main{
+        margin-top: 50px;
+    }
+
+    .image-header{
+        margin-right: 50px;
+    }
+
+    .launch{
+        font-size: 28px;
+        margin-right: 50px;
+    }
+
+    .subscribe{
+        margin-right: 35px;
+    }
+
+    input{
+        width: 300px;
+        margin-right: 45px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    button{
+        display: block;
+        margin-top: 10px;
+        margin-left: 30px;
+        padding-left: 125px;
+        padding-right:125px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .error{
+        margin-left: 50px;
+    }
+
+
+    .main{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .dashboard{
+        width: 300px;
+        height: 200px;
+        margin-left: 30px;
+        margin-top: -20px;
+        margin-bottom: 150px;
+    }
+
+    .icons{
+        margin-right: 30px;
+    }
+
+    .copy-right{
+        margin-right: 50px;
+    }
+
+    footer{
+        margin-right: 50px;
+    }
+
+}
